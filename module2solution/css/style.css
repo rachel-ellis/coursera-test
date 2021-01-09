@@ -10,38 +10,47 @@ h1 {
 }
 
 p {
-  margin: 10px;
-  margin-top: 40px;
-  clear: both;
+  margin-top: 20px;
+  text-align: justify;
 }
 
-/* Simple Responsive Framework. */
 .row {
   width: 100%;
-  border: 5px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 5px;
+  position: relative;
+  margin: 3px;
+  top: 30px;
+}
+
+.box {
+  position: relative;
+  top: 0;
+  background-color: #E0CBC7;
+  margin: 15px;
+  padding: 25px;
+  border: 2px solid black;
 }
 
 .topright {
+  position: absolute;
+  top: 0;
+  right: 0;
   width: 30%;
-  float: right;
-  font-size: 125%;
-  border: 2px solid black;
+  font-size: 120%;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
   text-align: center;
 }
 
 #chicken {
-  background-color: 
+  background-color: #B34733
 }
 
 #beef {
-  background-color: 
+  background-color: #844F45
 }
 
 #sushi {
-  background-color: 
+  background-color: #6E5C58
 }
 
 
@@ -49,7 +58,7 @@ p {
 @media (min-width: 992px) {
   .col-lg-3 {
     float: left;
-    width: 25%;
+    width: 33.33%;
   }
 
 }
